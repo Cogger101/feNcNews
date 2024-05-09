@@ -5,10 +5,30 @@
   text-align: center;
 }
 
+#header {
+    text-decoration: underline;
+    color: green;
+}
 
-.HomeArticleCard {
+.ArticleCard {
   border: 2px solid rgb(229, 255, 0);
   border-radius: 12px;
-  padding: 5px;
+  padding: 10px;
+}
+
+.SingleArticle {
+  border: 2px solid rgb(229, 255, 0);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.img {
+  width : 100px;
+  height : 100px
+}
+
+.SingleArticleImg {
+  width : 300px;
+  height : 300px
 }
 

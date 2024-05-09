@@ -1,7 +1,7 @@
 function Header(){
     
     return (
-        <h1 id="title">
+        <h1 id="header">
             NC NEWS
         </h1>
     )
