@@ -1,20 +1,21 @@
-import Header from './components/Header'
 import './App.css'
 import AllArticles from './components/Articles'
 import { Routes, Route } from 'react-router-dom';
+import SingleArticle from './components/SingleArticle'
+
+import Home from './components/Home';
 
 function App() {
   
 
   return (
-    <body className='body'>
-      <Header />
+    <>
       <Routes>
-        <Route path="/" element={<AllArticles/>} />
+        <Route path="/" element={<Home />}/>
+        <Route path="/articles" element={<AllArticles/>} />
+        <Route path="/articles/:article_id" element={<SingleArticle/>} />
       </Routes>
-    
-       
-    </body>
+      </>
   )
 }
 
