@@ -32,3 +32,8 @@
   height : 300px
 }
 
+.CommentCard{
+  border: 2px solid rgb(3, 74, 240);
+  border-radius: 12px;
+  padding: 10px;
+}
