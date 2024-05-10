@@ -2,18 +2,24 @@ import { useEffect, useState } from "react"
 import { getArticleById } from "../../utils/utils"
 import { useParams } from "react-router-dom"
 import Home from "./Home"
+import Comments from "./Comments"
 
 
 function SingleArticle(){
     const [article, setArticle] = useState()
+    const [loading, setLoading] = useState(true)
     const {article_id} = useParams()
 
     useEffect(()=>{
         getArticleById(article_id).then((response)=>{
-            console.log(response.data.article)
+            setLoading(false)
             setArticle(response.data.article)
         })
     },[article_id])
+
+    if (loading){
+        return <p>Loading...</p>
+    }
 
     return (
         <>   
@@ -29,9 +35,10 @@ function SingleArticle(){
             {article && <h3>Description: {article.body}</h3>}
             {article && <h3>Created by: {article.author}</h3> 
             }
-            {article && <h3>Votes: {article.votes}</h3> 
+            {article && <h3>{article.votes} likes</h3> 
             }
             </div>
+            <Comments article_id={article_id}/>
         </>
     )
 }
