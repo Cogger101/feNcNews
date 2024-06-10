@@ -15,3 +15,7 @@ export function getArticleById(article_id){
 export function getArticleComments(article_id){
     return ncNewsApiMain.get(`/api/articles/${article_id}/comments`)
 }
+
+export function patchVotes(article_id, updatedVotes){
+    return ncNewsApiMain.patch(`api/articles/${article_id}`, updatedVotes)
+}

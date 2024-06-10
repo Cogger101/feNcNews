@@ -1,12 +1,12 @@
 import Header from "./Header"
 import NavBar from "./NavBar"
 
-function Home(){
+function Home() {
     return (
         <>
-        <h1>Welcome to </h1>
-        <Header />
-        <NavBar />
+            <h1 className="WelcomeHeading">Welcome to... </h1>
+            <Header />
+            <NavBar />
         </>
     )
 }

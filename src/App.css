@@ -6,9 +6,15 @@
 }
 
 #header {
-    text-decoration: underline;
-    color: green;
+  padding: 10px;
+  color: green;
 }
+
+.WelcomeHeading {
+  text-decoration: green wavy underline;
+  color: rgb(225, 178, 6);
+}
+
 
 .ArticleCard {
   border: 2px solid rgb(229, 255, 0);
@@ -23,16 +29,16 @@
 }
 
 .img {
-  width : 100px;
-  height : 100px
+  width: 100px;
+  height: 100px
 }
 
 .SingleArticleImg {
-  width : 300px;
-  height : 300px
+  width: 300px;
+  height: 300px
 }
 
-.CommentCard{
+.CommentCard {
   border: 2px solid rgb(3, 74, 240);
   border-radius: 12px;
   padding: 10px;

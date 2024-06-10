@@ -21,13 +21,13 @@ function AllArticles (){
     }
 
  return (
-    <div >   
+    <>   
         <Home />
         {allArticles.map((article)=>(
         <ArticleCard key={article.id} article={article}/>
         ))}
         
-    </div>
+    </>
  )
 }
 

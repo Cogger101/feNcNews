@@ -3,6 +3,7 @@ import { getArticleById } from "../../utils/utils"
 import { useParams } from "react-router-dom"
 import Home from "./Home"
 import Comments from "./Comments"
+import ArticleVotes from "./ArticleVotes"
 
 
 function SingleArticle(){
@@ -37,6 +38,7 @@ function SingleArticle(){
             }
             {article && <h3>{article.votes} likes</h3> 
             }
+            <ArticleVotes />
             </div>
             <Comments article_id={article_id}/>
         </>
