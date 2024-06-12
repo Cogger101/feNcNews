@@ -29,13 +29,21 @@
 .ArticleCard {
   border: 2px solid rgb(229, 255, 0);
   border-radius: 12px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .SingleArticle {
   border: 2px solid rgb(229, 255, 0);
   border-radius: 12px;
-  padding: 10px;
+  padding: 20px;
+}
+
+.like-btn {
+  border-radius: 5px
+}
+
+.dislike-btn {
+  border-radius: 5px
 }
 
 .img {
