@@ -38,6 +38,10 @@
   padding: 20px;
 }
 
+.navbar {
+  padding: 5px;
+}
+
 .like-btn {
   border-radius: 5px
 }
