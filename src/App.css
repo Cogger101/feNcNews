@@ -42,6 +42,10 @@
   padding: 5px;
 }
 
+.navbar-btn {
+  padding: 10px;
+}
+
 .like-btn {
   border-radius: 5px
 }
