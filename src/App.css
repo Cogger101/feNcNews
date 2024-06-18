@@ -34,8 +34,9 @@
 
 .SingleArticle {
   border: 2px solid rgb(229, 255, 0);
-  border-radius: 12px;
+  border-radius: 50px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar {
@@ -43,15 +44,19 @@
 }
 
 .navbar-btn {
-  padding: 10px;
+  padding: 50px;
 }
 
 .like-btn {
-  border-radius: 5px
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .dislike-btn {
-  border-radius: 5px
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .img {
@@ -66,6 +71,7 @@
 
 .CommentCard {
   border: 2px solid rgb(3, 74, 240);
-  border-radius: 12px;
-  padding: 10px;
+  border-radius: 50px;
+  padding: 5px;
+  margin-bottom: 20px;
 }
