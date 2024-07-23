@@ -1,8 +1,5 @@
-#root {
-  max-width: 1280px;
-  margin: auto;
-  padding: 2rem;
-  text-align: center;
+.darkLightMode {
+  background-color: var(--background-color);
 }
 
 #header {
@@ -21,10 +18,16 @@
 }
 
 .WelcomeHeading {
-  text-decoration: green underline;
+  text-decoration: green;
   color: rgb(225, 178, 6);
 }
 
+.article-container {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
 
 .ArticleCard {
   border: 2px solid rgb(229, 255, 0);
@@ -44,8 +47,10 @@
 }
 
 .navbar-btn {
-  padding: 50px;
+  padding: 40px;
 }
+
+
 
 .like-btn {
   border-radius: 5px;

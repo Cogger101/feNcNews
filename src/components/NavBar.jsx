@@ -5,7 +5,9 @@ import { faHouse, faNewspaper, faFolder, faUser, faPenNib } from "@fortawesome/f
 
 
 
+
 function NavBar() {
+
     return (
         <nav className="navbar">
 
